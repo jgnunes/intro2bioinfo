@@ -1,2 +1,5 @@
-# intro2bioinfo
-Codes written for Introduction to Bioinformatics I 
+# Introdução à Bioinformática
+Repositório de códigos escritos para a disciplina do mestrado Introdução à Bioinformática, realizada no semestre 2018.1
+
+## Autor
+João Gabriel Rodinho Nunes Ferreira, find me at [**Linkedin**](https://www.linkedin.com/in/ferreiranunesjoao/) 
