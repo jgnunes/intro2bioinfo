@@ -1,5 +1,5 @@
 def descobrir_agregados(L,t,k,genoma):
-    kmers = {}
+	kmers = {}
 	agregados = []
 	for i in range(len(genoma)- L + 1):
 		janela = genoma[i:i+L]
