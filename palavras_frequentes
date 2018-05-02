@@ -1,0 +1,16 @@
+def palavrasFrequentes(texto,k):
+	kmers = {}
+	palavrasFrequentes = set()
+	for i in range(len(texto) - k + 1):
+		kmer = texto[i:i+k]
+		if kmer not in kmers:
+			kmers[kmer] = 1
+		else:
+			kmers[kmer] += 1
+	max_frequencia = max(kmers.values())
+	
+	for i in kmers:
+		if kmers[i] == max_frequencia:
+			palavrasFrequentes.add(i)
+	print("Maxima frequencia:", max_frequencia)
+	return list(palavrasFrequentes)
